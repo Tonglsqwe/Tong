@@ -132,7 +132,18 @@ def google_search(text):
     
     return(result)
 
-
+@app.get("/ngrams")
+def ngrams(text,num)
+    #text = 'chatchawal 1234'
+    #num = 6
+    #print(len(text))
+    sto = []
+    #def ngrams(text,num):
+    for x in range(len(text)-(num-1)):
+        print(x,text[x:x+num])
+        sto.append(text[x:x+num])
+    #ngrams(text,num)
+    return sto
 
 
 if __name__ == '__main__':
