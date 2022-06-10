@@ -133,7 +133,7 @@ def google_search(text):
     return(result)
 
 @app.get("/ngrams")
-def bigrams(text)
+def bigrams(text):
     #text = 'chatchawal 1234'
     num = 2
     #print(len(text))
