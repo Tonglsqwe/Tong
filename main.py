@@ -133,9 +133,9 @@ def google_search(text):
     return(result)
 
 @app.get("/ngrams")
-def ngrams(text,num)
+def bigrams(text)
     #text = 'chatchawal 1234'
-    #num = 6
+    num = 2
     #print(len(text))
     sto = []
     #def ngrams(text,num):
